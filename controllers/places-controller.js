@@ -24,5 +24,7 @@ router.get('/new', (req, res) => {
 router.post('/', (req, res) => {
   Places.create(req.body, (err, createdPlace) => {
     res.redirect('/places')
-  })
-})
+  });
+});
+
+module.exports = router;
