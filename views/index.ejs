@@ -13,6 +13,9 @@
     <div class="">
       <a href="/places/<%=places[i].id%>"><%=places[i].name%></a>
       <a href="/places/<%=places[i].id%>"><%=places[i].date%></a>
+      <form action="/places/<%=places[i].id%>?_method=DELETE" method="post">
+        <input type="submit" name="" value="Delete">
+      </form>
     </div>
   <%}%>
 </body>

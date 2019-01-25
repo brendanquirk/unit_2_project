@@ -1,6 +1,10 @@
+//=====================Dependencies=====================//
+
+//Express
 const express = require('express');
 const router = express.Router();
 
+//Models
 const Places = require('../models/places.js')
 
 
@@ -27,6 +31,20 @@ router.post('/', (req, res) => {
   });
 });
 
+//Delete Route
+router.delete('/:id', (req, res) => {
+  Places.findOneAndDelete({_id:req.params.id}, (err, deletedPlace) => {
+    res.redirect('/places')
+  });
+});
+
+//Edit Route
+
+
+//Put Route For Edit Route
+
+
+
 //Show Route
 router.get('/:id', (req, res) => {
   Places.findById(req.params.id, (err, foundPlace) => {
@@ -36,4 +54,6 @@ router.get('/:id', (req, res) => {
   });
 });
 
+//=====================Exports=====================//
+//Export Router
 module.exports = router;
