@@ -5,3 +5,24 @@ const Places = require('../models/places.js')
 
 
 //=====================Routes=====================//
+
+//Index Route
+router.get('/', (req, res) => {
+  Places.find({}, (err, allPlaces) => {
+    res.render('index.ejs', {
+      places: allPlaces
+    })
+  });
+});
+
+//New Route
+router.get('/new', (req, res) => {
+  res.render('new.ejs')
+});
+
+//Create Route For New Route
+router.post('/', (req, res) => {
+  Places.create(req.body, (err, createdPlace) => {
+    res.redirect('/places')
+  })
+})
