@@ -7,11 +7,12 @@
 </head>
 
 <body>
-  <h1>Travel Log</h1>
+  <h1>Adventure Log</h1>
+  <a href="/places/new">Log an Aventure</a>
   <% for (let i = 0; i < places.length; i++) {%>
     <div class="">
-      <a href="#"><%=places[0].name%></a>
-      <a href="#"><%=places[0].date%></a>
+      <a href="/places/<%=places[i].id%>"><%=places[i].name%></a>
+      <a href="/places/<%=places[i].id%>"><%=places[i].date%></a>
     </div>
   <%}%>
 </body>

@@ -27,4 +27,13 @@ router.post('/', (req, res) => {
   });
 });
 
+//Show Route
+router.get('/:id', (req, res) => {
+  Places.findById(req.params.id, (err, foundPlace) => {
+    res.render('show.ejs', {
+      place: foundPlace
+    })
+  });
+});
+
 module.exports = router;
