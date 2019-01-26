@@ -7,11 +7,11 @@
   <body>
     <h1>Edit an Adventure!</h1>
     <form class="" action="/places" method="post">
-      Name: <input type="text" name="name" value="">
-      Date Traveled: <input type="text" name="date">
-      Description: <input type="text" name="description">
-      Image: <input type="text" name="img">
-      Day Stayed: <input type="text" name="datesStayed">
+      Name: <input type="text" name="name" value="<%=place.name%>">
+      Date Traveled: <input type="text" name="date" value="<%=place.date%>">
+      Description: <input type="text" name="description" value="<%=place.description%>">
+      Image: <input type="text" name="img" value="<%=place.img%>">
+      Days Stayed: <input type="text" name="daysStayed" value="<%=place.daysStayed%>">
       <!-- Loved It?: <input type="checkbox" name="lovedIt"> -->
       <input type="submit" name="" value="Submit">
     </form>

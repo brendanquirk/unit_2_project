@@ -39,11 +39,20 @@ router.delete('/:id', (req, res) => {
 });
 
 //Edit Route
-
+router.get('/:id/edit', (req, res) => {
+  Places.findById(req.params.id, (err, foundPlace) => {
+    res.render('edit.ejs', {
+      place: foundPlace
+    });
+  });
+});
 
 //Put Route For Edit Route
-
-
+router.put('/:id', (req, res) => {
+  Places.findByIdAndUpdate(req.params.id, req.body, {new: true}, (err, edited) => {
+    res.redirect('/products')
+  });
+});
 
 //Show Route
 router.get('/:id', (req, res) => {
