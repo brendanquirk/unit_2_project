@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  margin: 0 auto;
+}
