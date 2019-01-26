@@ -50,7 +50,7 @@ router.get('/:id/edit', (req, res) => {
 //Put Route For Edit Route
 router.put('/:id', (req, res) => {
   Places.findByIdAndUpdate(req.params.id, req.body, {new: true}, (err, edited) => {
-    res.redirect('/products')
+    res.redirect('/places')
   });
 });
 

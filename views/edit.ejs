@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>Edit an Adventure!</h1>
-    <form class="" action="/places" method="post">
+    <form class="" action="/places/<%=place.id%>?_method=PUT" method="post">
       Name: <input type="text" name="name" value="<%=place.name%>">
       Date Traveled: <input type="text" name="date" value="<%=place.date%>">
       Description: <input type="text" name="description" value="<%=place.description%>">
