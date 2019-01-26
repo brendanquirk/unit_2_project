@@ -2,6 +2,11 @@ body {
   background-image: url('https://images-na.ssl-images-amazon.com/images/I/51u64ySbfnL._SX425_.jpg');
 }
 
+table {
+  background: white;
+  box-shadow: 4px 4px 4px black;
+}
+
 h1 {
   text-align: center;
   color: #e0e0e0;
@@ -12,7 +17,7 @@ div {
   padding: 20px 5px;
   border: 1px solid black;
   background: white;
-  opacity: .9;
+  /* opacity: .9; */
   box-shadow: 4px 4px 4px black;
   display: flex;
 }

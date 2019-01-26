@@ -4,23 +4,38 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="/index.css">
 </head>
 
 <body>
   <h1>The 'Route' Traveled</h1>
-  <div class="">
+  <div class="row">
       <a href="/places/new">Log an Adventure</a>
+      <i class="material-icons"><a href="/places/new">create</a></i>
   </div>
-  <% for (let i = 0; i < places.length; i++) {%>
-    <div class="">
-      <a href="/places/<%=places[i].id%>"><%=places[i].name%></a>
-      <a href="/places/<%=places[i].id%>"><%=places[i].date%></a>
-      <form action="/places/<%=places[i].id%>?_method=DELETE" method="post">
-        <input type="submit" name="" value="Delete">
-      </form>
-    </div>
-  <%}%>
+  <table>
+    <thead>
+      <th>Location</th>
+      <th>Date</th>
+      <th>More Info</th>
+      <th>Delete</th>
+    </thead>
+    <tbody>
+      <% for (let i = 0; i < places.length; i++) {%>
+        <tr>
+          <td><%=places[i].name%></td>
+          <td><%=places[i].date%></td>
+          <td><i class="material-icons"><a href="/places/<%=places[i].id%>">info</a></i></td>
+          <td><form action="/places/<%=places[i].id%>?_method=DELETE" method="post">
+            <input type="submit" name="" value="Delete">
+          </form></td>
+        </tr>
+
+      <%}%>
+    </tbody>
+  </table>
 </body>
 
 </html>

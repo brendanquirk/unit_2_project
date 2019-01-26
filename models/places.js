@@ -7,8 +7,7 @@ const placesSchema = new mongoose.Schema({
   date: String,
   description: String,
   img: String,
-  daysStayed: Number,
-  lovedIt: Boolean
+  daysStayed: Number
 });
 
 //Set Variable to Schema
