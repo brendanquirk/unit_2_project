@@ -1,0 +1,24 @@
+body {
+  background-image: url('https://images-na.ssl-images-amazon.com/images/I/51u64ySbfnL._SX425_.jpg');
+}
+
+h1 {
+  text-align: center;
+  color: #e0e0e0;
+  text-shadow: 10px 10px black;
+}
+
+div {
+  padding: 20px 5px;
+  border: 1px solid black;
+  background: white;
+  opacity: .9;
+  box-shadow: 4px 4px 4px black;
+  display: flex;
+}
+
+a {
+  padding-right: 100px;
+  text-decoration: none;
+  color: black;
+}

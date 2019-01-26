@@ -15,6 +15,9 @@ app.use(methodOverride('_method'));
 const placesController = require('./controllers/places-controller.js');
 app.use('/places', placesController);
 
+//CSS
+app.use(express.static('public'));
+
 //=====================Connections=====================//
 
 app.listen(3000, () => {

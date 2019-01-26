@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="/show.css">
+</head>
+
+<body>
+  <header>
+    <h1>
+      <%=place.name%>
+    </h1>
+  </header>
+  <div class="container">
+
     <div class="details">
-      <h1><%=place.name%></h1>
+
       <a href="/places/<%=place.id%>/edit">Edit</a>
       <ul>
-        <li>Trip Description: <%=place.description%></li>
-        <li>Days Stayed: <%=place.daysStayed%></li>
+        <li>Trip Description:
+          <%=place.description%>
+        </li>
+        <li>Days Stayed:
+          <%=place.daysStayed%>
+        </li>
       </ul>
     </div>
     <div class="images">
       <img src="<%=place.img%>" alt="Images">
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
