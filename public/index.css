@@ -29,4 +29,9 @@ a {
   padding-right: 100px;
   text-decoration: none;
   color: black;
+  text-align: center;
+}
+
+button {
+  opacity: .92;
 }

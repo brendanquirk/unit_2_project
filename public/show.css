@@ -4,11 +4,6 @@ body {
   background-attachment: fixed;
 }
 
-header {
-  background: black;
-  margin: 0px;
-  width:100%;
-}
 
 h1 {
   text-align: center;
@@ -27,6 +22,12 @@ h1 {
   opacity: .9;
   box-shadow: 4px 4px 4px black;
   width: 40%;
+
+}
+
+.images {
+  width: 40%;
+
 }
 
 div {
