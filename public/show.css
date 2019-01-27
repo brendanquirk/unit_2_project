@@ -11,13 +11,13 @@ h1 {
   text-shadow: 10px 10px black;
 }
 
-.container {
+/* .container {
   display: flex;
   flex-direction: row;
-}
+} */
 
 .details {
-  padding: 20px 5px;
+  /* padding: 20px 5px; */
   background: white;
   opacity: .9;
   box-shadow: 4px 4px 4px black;
@@ -26,8 +26,7 @@ h1 {
 }
 
 .images {
-  width: 40%;
-
+  margin: 0 auto;
 }
 
 div {
