@@ -5,10 +5,12 @@
   <meta charset="utf-8">
   <title></title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="/show.css">
 </head>
 
 <body>
+  <a href="/places"><button>Home</button></a>
   <header>
     <h1>
       <%=place.name%>
@@ -18,7 +20,8 @@
 
     <div class="details col">
 
-      <a href="/places/<%=place.id%>/edit">Edit</a>
+      <button class=".log"><a href="/places/new">Edit</a>
+      <i class="material-icons"><a href="/places/new">edit</a></i></button>
       <ul>
         <li>Trip Description:
           <%=place.description%>
@@ -32,7 +35,6 @@
       <img src="<%=place.img%>" alt="Images">
     </div>
   </div>
-  <a href="/places"><button>Home</button></a>
 </body>
 
 </html>

@@ -2,6 +2,7 @@ body {
   background-image: url('http://www.freepptbackground.com/wp-content/uploads/2012/12/world-grunge-map-texture-powerpoint.jpg');
   background-position: center;
   background-attachment: fixed;
+  text-align: center;
 }
 
 
@@ -11,10 +12,9 @@ h1 {
   text-shadow: 10px 10px black;
 }
 
-/* .container {
-  display: flex;
-  flex-direction: row;
-} */
+a {
+  color: black;
+}
 
 .details {
   /* padding: 20px 5px; */
@@ -22,6 +22,7 @@ h1 {
   opacity: .9;
   box-shadow: 4px 4px 4px black;
   width: 40%;
+  margin: 0 auto;
 
 }
 
