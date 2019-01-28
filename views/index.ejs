@@ -6,7 +6,7 @@
   <title></title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/../css/index.css">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
         <tr>
           <td><%=places[i].name%></td>
           <td><%=places[i].date%></td>
-          <td><i class="material-icons"><a href="/places/<%=places[i].id%>">info</a></i></td>
+          <td><i class="material-icons"><a href="/places/<%=places[i].id%>" class="icon-white">info_outline</a></i></td>
           <td><form action="/places/<%=places[i].id%>?_method=DELETE" method="post">
             <input type="submit" name="" value="Delete">
           </form></td>

@@ -1,14 +1,16 @@
 body {
-  background-image: url('http://www.freepptbackground.com/wp-content/uploads/2012/12/world-grunge-map-texture-powerpoint.jpg');
+  background-image: url('https://9ao1ah0sj4c298hb-zippykid.netdna-ssl.com/wp-content/uploads/2017/03/world-map-background.jpg');
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   text-align: center;
+  background-size: cover;
 }
 
 
 h1 {
   text-align: center;
-  color: #e0e0e0;
+  color: white;
   text-shadow: 10px 10px black;
 }
 
@@ -17,13 +19,12 @@ a {
 }
 
 .details {
-  /* padding: 20px 5px; */
-  background: white;
+  background: rgb(19, 76, 105);
+  color: white;
   opacity: .9;
   box-shadow: 4px 4px 4px black;
   width: 40%;
   margin: 0 auto;
-
 }
 
 .images {

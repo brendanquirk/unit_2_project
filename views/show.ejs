@@ -4,9 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="/show.css">
+  <link rel="stylesheet" href="/../css/show.css">
+  <script src="/../js/show.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -31,9 +35,11 @@
         </li>
       </ul>
     </div>
-    <div class="images col">
-      <img src="<%=place.img%>" alt="Images">
-    </div>
+    <div class="carousel">
+   <a class="carousel-item" href="#one!"><img src="<%=place.img_one%>"></a>
+   <a class="carousel-item" href="#two!"><img src="<%=place.img_two%>"></a>
+   <a class="carousel-item" href="#three!"><img src="<%=place.img_three%>"></a>
+ </div>
   </div>
 </body>
 

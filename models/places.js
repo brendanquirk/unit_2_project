@@ -6,7 +6,9 @@ const placesSchema = new mongoose.Schema({
   name: String,
   date: String,
   description: String,
-  img: [String],
+  img_one: String,
+  img_two: String,
+  img_three: String,
   daysStayed: Number
 });
 
