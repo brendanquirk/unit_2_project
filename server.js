@@ -22,7 +22,7 @@ app.use(express.static('public'));
 const PORT = process.env.PORT || 3000;
 
 //Database
-const MONGODB_URI = process.env.MongoDB_URI || 'mongodb://localhost/' + 'travel'
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/' + 'travel'
 //=====================Connections=====================//
 
 app.listen(PORT, () => {
