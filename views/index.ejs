@@ -27,7 +27,7 @@
           <td><%=places[i].date%></td>
           <td><i class="material-icons"><a href="/places/<%=places[i].id%>" class="icon-white">info_outline</a></i></td>
           <td><form action="/places/<%=places[i].id%>?_method=DELETE" method="post">
-            <input type="submit" name="" value="Delete">
+            <button class="delete-button" type="submit"><i class="material-icons">delete</i></button>
           </form></td>
         </tr>
 
