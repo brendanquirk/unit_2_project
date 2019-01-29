@@ -1,3 +1,6 @@
 $(() => {
-  $('.carousel').carousel();
+  console.log('hello');
+  $('.carousel').carousel({
+    
+  });
 })
