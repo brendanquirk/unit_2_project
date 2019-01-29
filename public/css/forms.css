@@ -32,4 +32,9 @@ input {
 input[type="submit"] {
   margin: 0 auto;
   margin-bottom: 20px;
+  color: black;
+}
+
+input, select, text {
+  color: white;
 }

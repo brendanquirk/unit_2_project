@@ -38,12 +38,16 @@ div {
 a {
   padding-right: 100px;
   text-decoration: none;
-  color: black;
+  color: white;
   text-align: center;
 }
 
 button {
   opacity: .92;
+}
+
+.log {
+  background: rgb(19, 76, 105);
 }
 
 .delete-button {

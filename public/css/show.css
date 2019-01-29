@@ -15,7 +15,7 @@ h1 {
 }
 
 a {
-  color: black;
+  color: white;
 }
 
 .details {
@@ -29,6 +29,16 @@ a {
 
 .images {
   margin: 0 auto;
+}
+
+.log {
+  background: rgb(19, 76, 105);
+  border: 0;
+}
+
+
+.icon-white {
+  color: white;
 }
 
 div {
