@@ -19,3 +19,6 @@ This app features
 - Inside the new route you can create elements to be created and displayed on the index and show Routes
 - In the show route you can view all of the details of the created elements and there is a link to the edit page
 In the edit route you can edit all the aspects of each element and change them accordingly
+
+### Link to Live Site
+To see the live site [Click Here!](https://the-route-less-traveled.herokuapp.com/places)
