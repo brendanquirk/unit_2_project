@@ -12,10 +12,16 @@ h1 {
   text-align: center;
   color: white;
   text-shadow: 10px 10px black;
+  font-family: 'Amatic SC', cursive;
 }
 
 a {
   color: white;
+  font-size: 30px;
+}
+
+button {
+  font-family: 'Kalam', cursive;
 }
 
 .details {
@@ -25,11 +31,10 @@ a {
   box-shadow: 4px 4px 4px black;
   width: 40%;
   margin: 0 auto;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
 }
 
-.images {
-  margin: 0 auto;
-}
 
 .log {
   background: rgb(19, 76, 105);
