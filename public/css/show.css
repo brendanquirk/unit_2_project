@@ -7,6 +7,10 @@ body {
   background-size: cover;
 }
 
+li {
+  padding-top: 30px;
+}
+
 
 h1 {
   text-align: center;
@@ -14,6 +18,11 @@ h1 {
   text-shadow: 10px 10px black;
   font-family: 'Amatic SC', cursive;
 }
+
+p {
+  text-decoration: underline;
+}
+
 
 a {
   color: white;
@@ -38,7 +47,10 @@ button {
 
 .log {
   background: rgb(19, 76, 105);
-  border: 0;
+  border-bottom: 1px solid white;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
 }
 
 
