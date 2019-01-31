@@ -20,5 +20,14 @@ This app features
 - In the show route you can view all of the details of the created elements and there is a link to the edit page
 In the edit route you can edit all the aspects of each element and change them accordingly
 
+## Technologies Used
+- HTML
+- CSS
+- Javascript
+- EJS
+- Express
+- Mongoose
+- MongoDB
+
 ### Link to Live Site
 To see the live site [Click Here!](https://the-route-less-traveled.herokuapp.com/places)
